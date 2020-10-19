@@ -15,9 +15,16 @@ c = -20
 x1 = (-b + (b**2-4*a*c)**(1/2)) / (2*a)
 x2 = (-b - (b**2-4*a*c)**(1/2)) / (2*a)
 print(x1,x2)
-"""
+
 
 temp = input("Celsius: ")
 temp = float(temp)
 fahrenheit = temp * 1.8 + 32
 print("fahrenheir:", fahrenheit)
+"""
+
+k1 = float(input("First perdendicular edges: "))
+k2 = float(input("Second perdendicular edges: "))
+a = (k2**2) + (k1**2) 
+a = a ** (1/2)
+print(a)
