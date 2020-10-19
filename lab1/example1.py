@@ -19,5 +19,5 @@ print(x1,x2)
 
 temp = input("Celsius: ")
 temp = float(temp)
-fahrenehit = temp * 1.8 + 32
-print(fahrenehit)
+fahrenheit = temp * 1.8 + 32
+print("fahrenheir:", fahrenheit)
