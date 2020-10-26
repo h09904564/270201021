@@ -1,4 +1,4 @@
-number = int(input("Give a number:?"))
+number = int(input("Enter a number:?"))
 
 if number > 0:
   print(number)
