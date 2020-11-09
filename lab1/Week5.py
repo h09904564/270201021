@@ -9,9 +9,4 @@ else:
 
 print(result)
 """
-year = int(input("What year are you in?: "))
 
-if year % 4 ==0:
-    print("You are in a leap year!!!")
-else:
-    print("You are in a century year.")
