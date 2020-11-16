@@ -11,7 +11,8 @@ for i in range(loop_times):
 result = even / (even + odd) * 100
 
 print(result)
-"""
+
+
 x1 = int((input("First number: ")))     
 x2 = int((input("Second number: ")))   
 match = 0
@@ -21,4 +22,14 @@ while x1 > 0 and x2 > 0:
     x1 = x1 // 10
     x2 = x2 // 10
 print(match) 
+"""
 
+password = "123cenk"
+
+e_password = input("Enter your password: ")
+if password == e_password:
+    print("welcome")
+elif e_password == "help":
+    print("The first character of the password is", password[0])
+else:
+    print("Wrong password")
