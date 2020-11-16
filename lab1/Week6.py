@@ -12,13 +12,13 @@ result = even / (even + odd) * 100
 
 print(result)
 """
-x1 = (input("First number: "))      #158
-x2 = (input("Second number: "))     #15885
-a = 0
-for i in x1:
-    for n in x2:
-        if n == i:
-            a +=1
-            break
+x1 = int((input("First number: ")))     
+x2 = int((input("Second number: ")))   
+match = 0
+while x1 > 0 and x2 > 0:
+    if x1 % 10 == x2 % 10:
+        match += 1 
+    x1 = x1 // 10
+    x2 = x2 // 10
+print(match) 
 
-print(a)
