@@ -15,3 +15,14 @@ def reverse_my_list(liste):
         return[liste.pop()] + reverse_my_list(liste)
 print(reverse_my_list([1,2,3,4]))
 """
+"""
+def get_evens(l):
+    return _get_evens_recursive(l, 0)
+def _get_evens_recursive(l, c=0):
+    if len(l) == 0:
+        return c
+    current = l.pop()
+    if current >= 0 and current %2 == 0:
+        c +=1
+    return _get_evens_recursive(l,c)
+"""
